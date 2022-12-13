@@ -1,0 +1,22 @@
+{
+  "name": "qna-graphql",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashez2000/qna-graphql.git"
+  },
+  "author": "Aswin Gangadharan",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
